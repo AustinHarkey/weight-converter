@@ -1,0 +1,96 @@
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    font-weight: 200;
+    font-size: 40px;
+    text-align: left;
+    line-height: 1.2
+}
+
+.form {
+
+}
+
+.form__input {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 22px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.form__input:focus {
+    border: 1px solid rgb(90, 90, 90);
+}
+
+.output {
+    list-style: none;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.output__item {
+    background: #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.output__item:nth-child(1) {
+    background: #f93943;
+}
+
+.output__item:nth-child(2) {
+    background: #593c8f;
+}
+
+.output__item:nth-child(3) {
+    background: #4daa57;
+}
+
+.output__title {
+    color: #fff;
+    font-weight: 600;
+    padding-right: 20px;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 22px;
+}
+
+#output__grams,
+#output__kilograms,
+#output__ounces {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
